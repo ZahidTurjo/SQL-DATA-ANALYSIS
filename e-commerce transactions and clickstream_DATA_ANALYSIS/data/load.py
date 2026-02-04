@@ -3,9 +3,6 @@ from sqlalchemy import create_engine
 import mysql.connector
 from pathlib import Path
 
-# ------------------------------
-# MySQL Connection Setup
-# ------------------------------
 db_config = {
     'host': 'localhost',
     'user': 'root',
@@ -25,7 +22,7 @@ def create_database():
     conn.commit()
     cursor.close()
     conn.close()
-    print("✅ Database created!")
+    print("Database created!")
 
 
 engine = create_engine(
@@ -45,12 +42,12 @@ def load_data():
     if 'signup_date' in customers.columns:
         customers['signup_date'] = pd.to_datetime(customers['signup_date'], errors='coerce')
     customers.to_sql('customers', con=engine, if_exists='replace', index=False, chunksize=1000)
-    print("✅ Customers loaded")
+    print(" Customers loaded")
     
     
     products = pd.read_csv(DATA_DIR / "products.csv")
     products.to_sql('products', con=engine, if_exists='replace', index=False, chunksize=1000)
-    print("✅ Products loaded")
+    print("Products loaded")
     
     
     events_file = DATA_DIR / "events.csv"
@@ -59,21 +56,21 @@ def load_data():
         if 'timestamp' in events.columns:
             events['timestamp'] = pd.to_datetime(events['timestamp'], errors='coerce')
         events.to_sql('events', con=engine, if_exists='replace', index=False, chunksize=1000)
-        print("✅ Events loaded")
+        print("Events loaded")
     
     # 4. ORDERS
     orders = pd.read_csv(DATA_DIR / "orders.csv")
     if 'order_time' in orders.columns:
         orders['order_time'] = pd.to_datetime(orders['order_time'], errors='coerce')
     orders.to_sql('orders', con=engine, if_exists='replace', index=False, chunksize=1000)
-    print("✅ Orders loaded")
+    print(" Orders loaded")
     
     # 5. ORDER_ITEMS (optional)
     order_items_file = DATA_DIR / "order_items.csv"
     if order_items_file.exists():
         order_items = pd.read_csv(order_items_file)
         order_items.to_sql('order_items', con=engine, if_exists='replace', index=False, chunksize=1000)
-        print("✅ Order Items loaded")
+        print("Order Items loaded")
     
     # 6. REVIEWS (optional)
     reviews_file = DATA_DIR / "reviews.csv"
@@ -82,9 +79,9 @@ def load_data():
         if 'review_time' in reviews.columns:
             reviews['review_time'] = pd.to_datetime(reviews['review_time'], errors='coerce')
         reviews.to_sql('reviews', con=engine, if_exists='replace', index=False, chunksize=1000)
-        print("✅ Reviews loaded")
+        print(" Reviews loaded")
     
-    print("\n🎉 All tables loaded successfully!")
+    print("\n All tables loaded successfully!")
 
 
 if __name__ == "__main__":
