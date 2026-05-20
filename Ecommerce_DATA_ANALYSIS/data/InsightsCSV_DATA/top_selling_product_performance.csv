@@ -1,0 +1,23 @@
+region,region_revenue,state,total_customers,total_orders,total_revenue,total_profit,profit_margin,top_selling_product,state_rank
+West,3280856.07,TX,166,291,937762.69,226042.74,24.10,"Appliances Model 867",1
+West,3280856.07,CA,112,211,655018.50,156425.41,23.88,"Appliances Model 867",2
+West,3280856.07,IL,43,83,257670.26,60832.99,23.61,"Appliances Model 867",3
+West,3280856.07,PA,38,71,253383.22,59973.83,23.67,"Appliances Model 867",4
+West,3280856.07,NC,33,65,238064.04,57323.22,24.08,"Appliances Model 867",5
+West,3280856.07,WA,36,65,219806.70,51098.84,23.25,"Appliances Model 867",6
+West,3280856.07,AZ,34,56,171658.99,43245.00,25.19,"Appliances Model 867",7
+West,3280856.07,NY,23,50,154147.43,35925.95,23.31,"Appliances Model 867",8
+West,3280856.07,OH,29,48,141288.16,34424.22,24.36,"Appliances Model 867",9
+West,3280856.07,FL,28,48,138405.12,31802.73,22.98,"Appliances Model 867",10
+West,3280856.07,IN,24,42,113650.96,27914.59,24.56,"Appliances Model 867",11
+Central,3229687.56,TX,171,327,980387.23,230081.01,23.47,"Bookcases Model 944",1
+Central,3229687.56,CA,112,192,638788.96,152751.79,23.91,"Bookcases Model 944",2
+Central,3229687.56,AZ,45,85,260838.94,66107.27,25.34,"Bookcases Model 944",3
+Central,3229687.56,NC,34,76,216941.25,53397.32,24.61,"Bookcases Model 944",4
+Central,3229687.56,PA,37,64,205354.62,51024.61,24.85,"Bookcases Model 944",5
+Central,3229687.56,OH,30,53,195085.41,49186.09,25.21,"Bookcases Model 944",6
+Central,3229687.56,IL,33,63,190480.02,45679.46,23.98,"Bookcases Model 944",7
+Central,3229687.56,IN,28,52,154137.45,36816.05,23.89,"Bookcases Model 944",8
+Central,3229687.56,FL,25,36,135692.13,33014.37,24.33,"Bookcases Model 944",9
+Central,3229687.56,NY,27,46,131980.38,34466.58,26.11,"Bookcases Model 944",10
+Central,3229687.56,WA,30,42,120001.17,28764.45,23.97,"Bookcases Model 944",11

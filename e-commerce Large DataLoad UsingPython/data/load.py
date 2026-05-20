@@ -6,7 +6,7 @@ from pathlib import Path
 db_config = {
     'host': 'localhost',
     'user': 'root',
-    'password': '682462',  
+    'password': '',  
     'database': 'ecommerce_database'
 }
 

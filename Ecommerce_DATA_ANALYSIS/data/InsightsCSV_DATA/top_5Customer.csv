@@ -1,0 +1,6 @@
+customer_id,customer_name,segment,revenue,profit,cummulative_revenue,revenue_contribution
+CU-101096,"William Wilson","Home Office",33887.11,7865.92,33887.11,0.27%
+CU-100539,"Jennifer Garcia","Home Office",32508.60,8223.01,66395.71,0.52%
+CU-101934,"Lisa Martinez",Consumer,26576.56,6206.23,92972.27,0.73%
+CU-101926,"John Brown","Home Office",26003.99,7086.65,118976.26,0.94%
+CU-101658,"Robert Davis","Home Office",25955.39,6022.86,144931.65,1.14%

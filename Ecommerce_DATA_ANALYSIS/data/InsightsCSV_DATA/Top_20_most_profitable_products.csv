@@ -1,0 +1,21 @@
+product_name,category,sub_category,revenue,profit,units_sold,profit_margin,performance_status,cat_rank
+"Art Model 574","Office Supplies",Art,25027.92,7067.35,53,28.24,"Above Average",1
+"Art Model 100","Office Supplies",Art,19586.83,5730.09,50,29.25,"Above Average",2
+"Phones Model 448",Technology,Phones,16776.76,5204.05,33,31.02,"Above Average",1
+"Phones Model 125",Technology,Phones,20993.85,5167.78,49,24.62,"Above Average",2
+"Art Model 980","Office Supplies",Art,19922.44,5061.53,56,25.41,"Above Average",3
+"Copiers Model 613",Technology,Copiers,17331.44,4908.04,40,28.32,"Above Average",3
+"Furnishings Model 265",Furniture,Furnishings,16430.66,4831.39,41,29.40,"Above Average",1
+"Accessories Model 191",Technology,Accessories,17312.07,4825.09,34,27.87,"Above Average",4
+"Copiers Model 517",Technology,Copiers,19478.78,4792.39,57,24.60,"Above Average",5
+"Accessories Model 192",Technology,Accessories,15716.68,4441.05,31,28.26,"Above Average",6
+"Chairs Model 240",Furniture,Chairs,14955.40,4372.70,37,29.24,"Above Average",2
+"Phones Model 594",Technology,Phones,16817.45,4270.51,31,25.39,"Above Average",7
+"Chairs Model 245",Furniture,Chairs,15269.53,4215.36,40,27.61,"Above Average",3
+"Furnishings Model 554",Furniture,Furnishings,19125.17,4206.93,35,22.00,"Above Average",4
+"Chairs Model 449",Furniture,Chairs,13068.72,4201.20,32,32.15,"Above Average",5
+"Furnishings Model 291",Furniture,Furnishings,15567.03,4193.04,46,26.94,"Above Average",6
+"Furnishings Model 769",Furniture,Furnishings,19724.32,4179.16,44,21.19,"Above Average",7
+"Paper Model 837","Office Supplies",Paper,13934.37,4154.92,24,29.82,"Above Average",4
+"Chairs Model 520",Furniture,Chairs,11769.36,4134.24,27,35.13,"Above Average",8
+"Machines Model 811",Technology,Machines,15199.95,4116.19,34,27.08,"Above Average",8
